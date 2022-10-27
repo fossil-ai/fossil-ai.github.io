@@ -26,5 +26,7 @@ ML Experience: Primarily deep learning in computer vision and natural language p
 
 ### Education
 BA - Physics, Rutgers University - New Brunswick (2015)
+
 M.S - Electrical & Computer Engineering, Rutgers University - New Brunswick (2017)
+
 PhD - Computer Science, UMBC (2020 - Ongoing) (part-time)
