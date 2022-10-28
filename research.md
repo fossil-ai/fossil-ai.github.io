@@ -1,14 +1,10 @@
 ---
 layout: page
-title: about me
-subtitle: nothing special to see here, pls ignore
+title: research
+subtitle: really all over the place
 ---
 
-My name is Faisal Mohammad. I am a machine learning engineer. Sometimes people mis-pronounce my name as 'fossil', therefore:
-
-- I've accepted this is my life now
-- I've only ever bought Fossil watches :(
-- I named my Github page Fossil-AI
+My primary research focus involves capturing higher-level semantic representations in visual and language to do useful tasks
 
 **I created my own Github page primarily as a journal log to help mentally solidfy the nuances behind the many algorithms and architectures I read about.**
 
@@ -26,9 +22,17 @@ ML Dev: Tensorflow (C++/Python), Pytorch (Python), Keras, OpenCV (C++/Python), R
 
 ML Experience: Primarily deep learning in computer vision and natural language processing with some reinforcement learning sprinkled in there.
 
-### Education
-BA - Physics, Rutgers University - New Brunswick (2015)
+### Undergraduate Research
 
-M.S - Electrical & Computer Engineering, Rutgers University - New Brunswick (2017)
+During my undergraduate days many years ago I worked with Dr. George Shoane on various projects involving ocular mechanics.
 
-PhD - Computer Science, UMBC (2020 - Ongoing, part-time)
+Below are the following publications from my research as a student researcher under Dr.Shoane:
+
+**Drowsy Driver Mobile Application: Development of a novel scleral-area detection method**
+https://www.sciencedirect.com/science/article/abs/pii/S0010482517302512?via%3Dihub
+
+**Eye Growth and Myopia Development: Unifying theory and Matlab Model**
+https://pubmed.ncbi.nlm.nih.gov/26820446/
+
+**Timing Differences in Eye-Hand Coordination Between Experienced and Inexperienced Tennis Players**
+https://www.researchgate.net/publication/275155619_Timing_Differences_in_Eye-Hand_Coordination_Between_Experienced_and_Inexperienced_Tennis_Players
