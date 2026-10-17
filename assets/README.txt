@@ -1,10 +1,6 @@
-Drop your assets in this folder. The site expects these filenames:
+Optional files for the site:
 
-  cv.pdf         → your resume/CV. The "Resume" button and "Download CV" link point here.
-  profile.jpg    → (optional) a headshot. To use it, open index.html, find the
-                   `<div class="avatar" ...>F</div>` line and replace it with:
-                       <img class="avatar" src="assets/profile.jpg" alt="Faisal Mohammed" />
-  og-image.png   → (optional) 1200x630 image shown when your link is shared on
-                   LinkedIn/Twitter/Slack. Already wired up in the <head> meta tags.
+  profile.jpg  → headshot. It fills the photo panel next to the intro automatically.
+  cv.pdf       → CV. Add <a href="assets/cv.pdf">CV</a> to the .links line in the header.
 
-Nothing here is required for the site to work — these just make it more complete.
+Nothing here is required for the site to work.
