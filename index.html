@@ -57,7 +57,12 @@
     .note { color: var(--muted); font-size: .94rem; }
 
     .cv li { margin-bottom: 6px; }
-    .jobs > li { margin-bottom: 22px; }
+    .jobs > li { margin-bottom: 22px; display: grid; grid-template-columns: 112px 1fr; gap: 20px; align-items: start; }
+    .jobs .logo {
+      height: 56px; padding: 8px; background: #fff; border: 1px solid var(--rule); border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .jobs .logo img { max-width: 100%; max-height: 100%; }
     .jobs .row { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; }
     .jobs .org { font-weight: 700; }
     .jobs .yr { color: var(--muted); white-space: nowrap; font-size: .94rem; }
@@ -77,6 +82,8 @@
       .intro { grid-template-columns: 1fr; gap: 20px; }
       .photo { order: -1; width: 140px; }
       .jobs .row { flex-direction: column; gap: 0; }
+      .jobs > li { grid-template-columns: 1fr; gap: 10px; }
+      .jobs .logo { width: 112px; }
     }
   </style>
 </head>
@@ -124,19 +131,28 @@
     <h2>Experience</h2>
     <ul class="plain jobs">
       <li>
+        <div class="logo"><img src="assets/logos/apl.svg" alt="Johns Hopkins APL logo"></div>
+        <div>
         <div class="row"><span class="org">Johns Hopkins Applied Physics Laboratory</span><span class="yr">2019 – present</span></div>
         <div class="role">Senior Machine Learning Engineer</div>
         <div class="desc">Perception research and engineering for autonomous maritime systems: multi-modal detection, classification, and segmentation across EO/IR, sonar, and hyperspectral imagery, taken from data pipelines to real-time C++/TensorRT deployment on edge hardware. More recently, vision–language models for vessel recognition, and methods for measuring what perception models rely on and how well they hold up under distribution shift.</div>
+        </div>
       </li>
       <li>
+        <div class="logo"><img src="assets/logos/northrop.svg" alt="Northrop Grumman logo"></div>
+        <div>
         <div class="row"><span class="org">Northrop Grumman</span><span class="yr">2017 – 2019</span></div>
         <div class="role">Machine Learning Engineer</div>
         <div class="desc">Led the AI/ML initiative within the software team, building deep-learning automatic target recognition for synthetic-aperture radar (SAR) imagery and reinforcement-learning and combinatorial-optimization methods for weapon–target assignment and multi-vehicle scheduling. Mentored engineers and interns on machine learning.</div>
+        </div>
       </li>
       <li>
+        <div class="logo"><img src="assets/logos/tdameritrade.svg" alt="TD Ameritrade logo"></div>
+        <div>
         <div class="row"><span class="org">TD Ameritrade</span><span class="yr">2016</span></div>
         <div class="role">Software Engineer</div>
         <div class="desc">Built a tvOS app prototype that pulled trading-account and market data from the company's API, and co-engineered a Node.js HTTP proxy mock server to speed up Android app testing.</div>
+        </div>
       </li>
     </ul>
 
