@@ -49,6 +49,16 @@
     .links a { color: var(--accent); }
     .links svg { width: 21px; height: 21px; }
 
+    .docs { display: flex; gap: 12px; align-items: center; margin-top: 18px; }
+    .docs-note { color: var(--muted); }
+    .btn {
+      display: inline-flex; align-items: center; gap: 7px; padding: 6px 14px;
+      border: 1px solid var(--accent); border-radius: 6px; color: var(--accent); font-size: .92rem;
+      transition: background .15s, color .15s;
+    }
+    .btn:hover { background: var(--accent); color: var(--bg); text-decoration: none; }
+    .btn svg { width: 15px; height: 15px; }
+
     h2 { font-size: 1.15rem; font-weight: normal; margin: 44px 0 14px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
     p { margin: 0 0 1em; }
 
@@ -124,6 +134,10 @@
         </p>
         <p>
           When I'm not working: tennis, anime, metal, cooking, and black coffee.
+        </p>
+        <p class="docs">
+          <span class="docs-note">Here's my resume :D</span>
+          <a class="btn" href="assets/resume.pdf" download="Faisal_Mohammad_Resume.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Resume</a>
         </p>
       </div>
       <!-- Headshot: save it as assets/profile.jpg -->
