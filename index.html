@@ -64,7 +64,7 @@
 
     ul.plain { list-style: none; margin: 0; padding: 0; }
     .pubs li { margin-bottom: 18px; display: grid; grid-template-columns: 80px 1fr; gap: 16px; align-items: start; }
-    .pubs .thumb { width: 80px; height: 80px; object-fit: cover; border-radius: 4px; margin-top: 3px; }
+    .pubs .thumb { width: 80px; height: 80px; object-fit: cover; border-radius: 4px; margin-top: 3px; box-shadow: 0 0 0 1px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.12); }
     .pubs .title { font-weight: 600; }
     .pubs .venue { color: var(--muted); }
     .pubs .sep { color: var(--muted); margin: 0 .3em; }
@@ -99,6 +99,9 @@
       .intro { grid-template-columns: 1fr; gap: 20px; }
       .photo { order: -1; width: 140px; }
       .jobs .row { flex-direction: column; gap: 0; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .pubs .thumb { box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 1px 3px rgba(0,0,0,.5); }
     }
   </style>
 </head>
